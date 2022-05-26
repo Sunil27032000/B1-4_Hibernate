@@ -18,11 +18,12 @@ public class InheritanceTest {
 		emp.setSalary(25000);
 		em.persist(emp);
 		
+		
 		//create one manager
 		Manager manager=new Manager();
 		manager.setName("Sandeep");
 		manager.setSalary(70000);
-		manager.setDeptName("Program Specialist");
+		manager.setDeptName("Employee AT Capgemini");
 		em.persist(manager);
 		
 		em.getTransaction().commit();
